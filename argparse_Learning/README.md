@@ -3,7 +3,6 @@
 * 1
 如果argument_default= 'argparse.SUPPRESS'（意为抑制实参的默认值）  
 则 parse_args([])  return的Namespace中没有实参f和bar 即return Namespace()  
-
 若Parameter:argument_default为默认值，则所有实参有默认值,则实参f和bar必然存在
 即return Namespace(f=None, bar=None)
 
