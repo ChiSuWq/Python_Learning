@@ -10,7 +10,6 @@
 * 2
 add_argumnet中的Parameter:'dest'
 如果add_argument中有'dest' ,则生成的Namespace中对应的argument名为dest的变量。  
-
 如parser7中的-f dest='f_dest', 则生成Namespace(f_dest=...)
 'f' in flags 返回False
 
