@@ -11,4 +11,4 @@ python trees_watermelon.py
 
  * Numpy
  * Python3.6
- * atplotlib
+ * Matplotlib
