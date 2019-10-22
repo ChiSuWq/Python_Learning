@@ -1,11 +1,14 @@
-#C4.5 Decision Tree For Watermelon3.0
-<br>
-##Result
+# C4.5 Decision Tree For Watermelon3.0
 
-##Code
+
+## Result
+
+
+## Code
 python trees_watermelon.py
 
-##Environment
-  *Numpy
-  *Python3.6
-  *matplotlib
+## Environment
+
+ * Numpy
+ * Python3.6
+ * atplotlib
