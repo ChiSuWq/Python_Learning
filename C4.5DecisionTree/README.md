@@ -2,7 +2,7 @@
 
 
 ## Result
-
+![](https://github.com/ChiSuWq/Python_Learning/blob/master/C4.5DecisionTree/trees_plot.jpg)
 
 ## Code
 python trees_watermelon.py
