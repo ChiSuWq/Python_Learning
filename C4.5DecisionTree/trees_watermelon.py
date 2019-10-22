@@ -156,8 +156,6 @@ def chooseBestFeatureToSplit(dataSet):
 					prob = len(subDataSet)/len(dataSet)
 					newEntropy += prob * calcShannonEnt(subDataSet)
 				infoGain = baseEntropy - newEntropy
-				print('numFeatures {} splitValue {}, infoGain {:2f}, bestInfoGain {:2f}'.format(
-								numFeatures,splitValue, infoGain, bestInfoGain))
 				if infoGain > bestLocalInfoGain:
 					bestLocalInfoGain = infoGain
 					bestValue = splitValue
@@ -180,7 +178,6 @@ def createTree(dataSet, labels):
 		return classList[0]
 	bestFeat, bestValue = chooseBestFeatureToSplit(dataSet)
 	bestFeatLabel = labels[bestFeat]
-	print(bestFeatLabel, bestValue)
 	if bestFeatLabel in ['含糖率', '密度']:
 		#如果当前最好的特征为连续型特征，不需要删除特征
 		myTree = {bestFeatLabel:{} } #利用dict生成多叉树
